@@ -1,4 +1,0 @@
-# Technology Integration
-
-## Links
-

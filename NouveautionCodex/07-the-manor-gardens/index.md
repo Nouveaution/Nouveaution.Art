@@ -1,4 +1,0 @@
-# The Manor Gardens
-
-## Links
-

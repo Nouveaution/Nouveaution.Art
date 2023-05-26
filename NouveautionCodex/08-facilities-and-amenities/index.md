@@ -1,4 +1,0 @@
-# Facilities and Amenities
-
-## Links
-

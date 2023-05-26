@@ -1,4 +1,0 @@
-# Policies and Etiquette
-
-## Links
-

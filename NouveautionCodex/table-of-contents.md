@@ -1,5 +1,16 @@
 # Nouveaution Codex: A Comprehensive Guide to Our Virtual Creative Manor
 
+[Nouveaution.Art](https://nouveaution.art) is a virtual manor, an innovative studio designed to foster artistic expression and creativity. This expansive virtual space, with its diverse rooms and unique ambiances, caters to a spectrum of creative pursuits. From painter's nooks and sculptor's corners to writers' dens and musicians' studios, the manor offers artists the freedom to explore their imagination and craft their masterpieces. Our communal and recreational spaces further encourage collaboration, relaxation, and rejuvenation, creating a balance between work and play.
+
+Utilizing Skybox AI and Marzipano, we transform our artists' visions into reality. Skybox AI empowers our artists to generate stunning 360° worlds from simple text prompts, while Marzipano facilitates the creation of interactive panoramas and virtual tours. These robust tools breathe life into our manor, overlay additional content onto our 360° images, and deliver an immersive, responsive user experience.
+
+Nouveaution.Art is not just a virtual studio—it's a celebration of creativity and a testament to the limitless potential of artistic expression. We offer a sanctuary where the boundaries of time and space dissolve, allowing artists to immerse themselves in their work, connect with fellow creatives, and ultimately, leave a unique imprint on the world.
+
+## The Nouveaution Codex
+
+The Codex serves as a detailed documentation of Nouveaution Manor, a virtual manor where creatives can work, play, and explore. It provides an in-depth look at the architectural layout, purpose of each room, satellite structures, gardens, facilities, and more. If you're curious about the different spaces within the manor, their functionalities, and the immersive technologies integrated into the creative experience, this codex is your ultimate resource. Explore the [Nouveaution Codex](./NouveautionCodex/table-of-contents.md) to delve into the captivating world of Nouveaution Manor!
+
+
 ## Table of Contents
 
 1. [Introduction](./01-introduction/index.md)
@@ -31,7 +42,7 @@
     - [The Resonance Room](./05-the-showcase-skybox/04-the-resonance-room/index.md)
     - [The Dream Weaver](./05-the-showcase-skybox/05-the-dream-weaver/index.md)
     - [The Celebration Hall](./05-the-showcase-skybox/06-the-celebration-hall/index.md)
-6. [Satellite Structures](./06-satellite-structures/index.md)
+6. [The Manor Gardens](./06-the-manor-gardens/index.md)
     - [The Artisans Greenhouse](./06-satellite-structures/01-the-artisans-greenhouse/index.md)
     - [The Sculpture Garden](./06-satellite-structures/02-the-sculpture-garden/index.md)
     - [The Sound of Water Studio](./06-satellite-structures/03-the-sound-of-water-studio/index.md)
@@ -40,9 +51,8 @@
     - [The Nature Photography Pavilion](./06-satellite-structures/06-the-nature-photography-pavilion/index.md)
     - [The Sports Complex](./06-satellite-structures/07-the-sports-complex/index.md)
     - [The Open-Air Theatre](./06-satellite-structures/08-the-open-air-theatre/index.md)
-7. [The Manor Gardens](./07-the-manor-gardens/index.md)
-8. [Facilities and Amenities](./08-facilities-and-amenities/index.md)
-9. [Technology Integration](./09-technology-integration/index.md)
-10. [Policies and Etiquette](./10-policies-and-etiquette/index.md)
-11. [FAQs](./11-faqs/index.md)
-12. [Conclusion and Contact Information](./12-conclusion-and-contact-information/index.md)
+7. [Facilities and Amenities](./07-facilities-and-amenities/index.md)
+8. [Technology Integration](./08-technology-integration/index.md)
+9. [Policies and Etiquette](./9-policies-and-etiquette/index.md)
+10. [FAQs](./10-faqs/index.md)
+11. [Conclusion and Contact Information](./11-conclusion-and-contact-information/index.md)

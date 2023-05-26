@@ -68,3 +68,926 @@ These features make Marzipano a powerful tool for creating captivating and inter
 
 
 
+
+```
+Nouveaution.Art
+├─ .vscode
+│  └─ settings.json
+├─ assets
+│  ├─ android-chrome-192x192.png
+│  ├─ android-chrome-512x512.png
+│  ├─ apple-touch-icon.png
+│  ├─ favicon-16x16.png
+│  ├─ favicon-32x32.png
+│  ├─ favicon.ico
+│  ├─ favicon.png
+│  ├─ fonts
+│  │  ├─ DellaRespira.woff2
+│  │  └─ Legrand.woff2
+│  ├─ img
+│  │  └─ frame.jpg
+│  ├─ site.webmanifest
+│  └─ skyboxes
+│     ├─ exterior
+│     │  ├─ city
+│     │  │  └─ realistic_teal_art_nouveau_grand_manor_facade_fron.jpg
+│     │  └─ enterance
+│     │     ├─ realistic_at_the_front_door_of_the_vibrant_surreal.jpg
+│     │     ├─ realistic_front_door_intricate_teal_art_nouveau_gr (1).jpg
+│     │     ├─ realistic_front_door_intricate_teal_art_nouveau_gr.jpg
+│     │     ├─ realistic_front_door_teal_art_nouveau_grand_manor_ (1).jpg
+│     │     ├─ realistic_front_door_teal_art_nouveau_grand_manor_ (2).jpg
+│     │     ├─ realistic_front_door_teal_art_nouveau_grand_manor_.jpg
+│     │     ├─ realistic_intricate_teal_art_nouveau_grand_manor_f (1).jpg
+│     │     ├─ realistic_intricate_teal_art_nouveau_grand_manor_f (2).jpg
+│     │     ├─ realistic_intricate_teal_art_nouveau_grand_manor_f (3).jpg
+│     │     ├─ realistic_intricate_teal_art_nouveau_grand_manor_f (4).jpg
+│     │     ├─ realistic_intricate_teal_art_nouveau_grand_manor_f (5).jpg
+│     │     ├─ realistic_intricate_teal_art_nouveau_grand_manor_f (6).jpg
+│     │     ├─ realistic_intricate_teal_art_nouveau_grand_manor_f.jpg
+│     │     ├─ realistic_surreal_front_door_intricate_teal_art_no.jpg
+│     │     ├─ realistic_teal_art_nouveau_grand_manor_facade_fron (1).jpg
+│     │     ├─ realistic_teal_art_nouveau_grand_manor_facade_fron (2).jpg
+│     │     └─ realistic_teal_art_nouveau_grand_manor_facade_fron.jpg
+│     └─ interior
+├─ data.js
+├─ img
+│  ├─ close.png
+│  ├─ collapse.png
+│  ├─ down.png
+│  ├─ expand.png
+│  ├─ fullscreen.png
+│  ├─ info.png
+│  ├─ left.png
+│  ├─ link.png
+│  ├─ minus.png
+│  ├─ pause.png
+│  ├─ play.png
+│  ├─ plus.png
+│  ├─ right.png
+│  ├─ up.png
+│  └─ windowed.png
+├─ index.html
+├─ index.js
+├─ NouveautionCodex
+│  ├─ 01-introduction
+│  │  └─ index.md
+│  ├─ 02-navigating-the-manor
+│  │  └─ index.md
+│  ├─ 03-the-creative-core
+│  │  ├─ 01-the-sketch-room
+│  │  │  └─ index.md
+│  │  ├─ 02-the-sculptors-den
+│  │  │  └─ index.md
+│  │  ├─ 03-the-composers-suite
+│  │  │  └─ index.md
+│  │  ├─ 04-the-photography-lab
+│  │  │  └─ index.md
+│  │  ├─ 05-the-digital-design-studio
+│  │  │  └─ index.md
+│  │  ├─ 06-the-animation-workshop
+│  │  │  └─ index.md
+│  │  ├─ 07-the-game-developers-arena
+│  │  │  └─ index.md
+│  │  ├─ 08-the-film-editors-loft
+│  │  │  └─ index.md
+│  │  ├─ 09-the-choreographers-stage
+│  │  │  └─ index.md
+│  │  ├─ 10-the-collaboration-hub
+│  │  │  └─ index.md
+│  │  └─ index.md
+│  ├─ 04-the-learning-loft
+│  │  ├─ 01-the-scriptorium
+│  │  │  └─ index.md
+│  │  ├─ 02-the-architects-atelier
+│  │  │  └─ index.md
+│  │  ├─ 03-the-vr-library
+│  │  │  └─ index.md
+│  │  ├─ 04-the-training-ground
+│  │  │  └─ index.md
+│  │  ├─ 05-the-discussion-salon
+│  │  │  └─ index.md
+│  │  ├─ 06-the-idea-incubator
+│  │  │  └─ index.md
+│  │  ├─ 07-the-game-room
+│  │  │  └─ index.md
+│  │  ├─ 08-the-serenity-garden
+│  │  │  └─ index.md
+│  │  └─ index.md
+│  ├─ 05-the-showcase-skybox
+│  │  ├─ 01-the-exhibition-hall
+│  │  │  └─ index.md
+│  │  ├─ 02-the-feedback-forum
+│  │  │  └─ index.md
+│  │  ├─ 03-the-time-capsule
+│  │  │  └─ index.md
+│  │  ├─ 04-the-resonance-room
+│  │  │  └─ index.md
+│  │  ├─ 05-the-dream-weaver
+│  │  │  └─ index.md
+│  │  ├─ 06-the-celebration-hall
+│  │  │  └─ index.md
+│  │  └─ index.md
+│  ├─ 06-the-manor-gardens
+│  │  ├─ 01-the-artisans-greenhouse
+│  │  │  └─ index.md
+│  │  ├─ 02-the-sculpture-garden
+│  │  │  └─ index.md
+│  │  ├─ 03-the-sound-of-water-studio
+│  │  │  └─ index.md
+│  │  ├─ 04-the-writers-cabin
+│  │  │  └─ index.md
+│  │  ├─ 05-the-botanical-atelier
+│  │  │  └─ index.md
+│  │  ├─ 06-the-nature-photography-pavilion
+│  │  │  └─ index.md
+│  │  ├─ 07-the-sports-complex
+│  │  │  └─ index.md
+│  │  ├─ 08-the-open-air-theatre
+│  │  │  └─ index.md
+│  │  └─ index.md
+│  ├─ 07-facilities-and-amenities
+│  │  └─ index.md
+│  ├─ 08-technology-integration
+│  │  └─ index.md
+│  ├─ 09-policies-and-etiquette
+│  │  └─ index.md
+│  ├─ 10-faqs
+│  │  └─ index.md
+│  ├─ 11-conclusion-and-contact-information
+│  │  └─ index.md
+│  └─ table-of-contents.md
+├─ README.md
+├─ style.css
+├─ tiles
+│  ├─ 0-entrance-
+│  │  ├─ 1
+│  │  │  ├─ b
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  ├─ d
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  ├─ f
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  ├─ l
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  ├─ r
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  └─ u
+│  │  │     └─ 0
+│  │  │        └─ 0.jpg
+│  │  ├─ 2
+│  │  │  ├─ b
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  ├─ d
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  ├─ f
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  ├─ l
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  ├─ r
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  └─ u
+│  │  │     ├─ 0
+│  │  │     │  ├─ 0.jpg
+│  │  │     │  └─ 1.jpg
+│  │  │     └─ 1
+│  │  │        ├─ 0.jpg
+│  │  │        └─ 1.jpg
+│  │  ├─ 3
+│  │  │  ├─ b
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  ├─ d
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  ├─ f
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  ├─ l
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  ├─ r
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  └─ u
+│  │  │     ├─ 0
+│  │  │     │  ├─ 0.jpg
+│  │  │     │  ├─ 1.jpg
+│  │  │     │  ├─ 2.jpg
+│  │  │     │  └─ 3.jpg
+│  │  │     ├─ 1
+│  │  │     │  ├─ 0.jpg
+│  │  │     │  ├─ 1.jpg
+│  │  │     │  ├─ 2.jpg
+│  │  │     │  └─ 3.jpg
+│  │  │     ├─ 2
+│  │  │     │  ├─ 0.jpg
+│  │  │     │  ├─ 1.jpg
+│  │  │     │  ├─ 2.jpg
+│  │  │     │  └─ 3.jpg
+│  │  │     └─ 3
+│  │  │        ├─ 0.jpg
+│  │  │        ├─ 1.jpg
+│  │  │        ├─ 2.jpg
+│  │  │        └─ 3.jpg
+│  │  └─ preview.jpg
+│  ├─ 1-rear
+│  │  ├─ 1
+│  │  │  ├─ b
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  ├─ d
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  ├─ f
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  ├─ l
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  ├─ r
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  └─ u
+│  │  │     └─ 0
+│  │  │        └─ 0.jpg
+│  │  ├─ 2
+│  │  │  ├─ b
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  ├─ d
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  ├─ f
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  ├─ l
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  ├─ r
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  └─ u
+│  │  │     ├─ 0
+│  │  │     │  ├─ 0.jpg
+│  │  │     │  └─ 1.jpg
+│  │  │     └─ 1
+│  │  │        ├─ 0.jpg
+│  │  │        └─ 1.jpg
+│  │  ├─ 3
+│  │  │  ├─ b
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  ├─ d
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  ├─ f
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  ├─ l
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  ├─ r
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  └─ u
+│  │  │     ├─ 0
+│  │  │     │  ├─ 0.jpg
+│  │  │     │  ├─ 1.jpg
+│  │  │     │  ├─ 2.jpg
+│  │  │     │  └─ 3.jpg
+│  │  │     ├─ 1
+│  │  │     │  ├─ 0.jpg
+│  │  │     │  ├─ 1.jpg
+│  │  │     │  ├─ 2.jpg
+│  │  │     │  └─ 3.jpg
+│  │  │     ├─ 2
+│  │  │     │  ├─ 0.jpg
+│  │  │     │  ├─ 1.jpg
+│  │  │     │  ├─ 2.jpg
+│  │  │     │  └─ 3.jpg
+│  │  │     └─ 3
+│  │  │        ├─ 0.jpg
+│  │  │        ├─ 1.jpg
+│  │  │        ├─ 2.jpg
+│  │  │        └─ 3.jpg
+│  │  └─ preview.jpg
+│  ├─ 2-garden
+│  │  ├─ 1
+│  │  │  ├─ b
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  ├─ d
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  ├─ f
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  ├─ l
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  ├─ r
+│  │  │  │  └─ 0
+│  │  │  │     └─ 0.jpg
+│  │  │  └─ u
+│  │  │     └─ 0
+│  │  │        └─ 0.jpg
+│  │  ├─ 2
+│  │  │  ├─ b
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  ├─ d
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  ├─ f
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  ├─ l
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  ├─ r
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  └─ 1.jpg
+│  │  │  │  └─ 1
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     └─ 1.jpg
+│  │  │  └─ u
+│  │  │     ├─ 0
+│  │  │     │  ├─ 0.jpg
+│  │  │     │  └─ 1.jpg
+│  │  │     └─ 1
+│  │  │        ├─ 0.jpg
+│  │  │        └─ 1.jpg
+│  │  ├─ 3
+│  │  │  ├─ b
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  ├─ d
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  ├─ f
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  ├─ l
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  ├─ r
+│  │  │  │  ├─ 0
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 1
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  ├─ 2
+│  │  │  │  │  ├─ 0.jpg
+│  │  │  │  │  ├─ 1.jpg
+│  │  │  │  │  ├─ 2.jpg
+│  │  │  │  │  └─ 3.jpg
+│  │  │  │  └─ 3
+│  │  │  │     ├─ 0.jpg
+│  │  │  │     ├─ 1.jpg
+│  │  │  │     ├─ 2.jpg
+│  │  │  │     └─ 3.jpg
+│  │  │  └─ u
+│  │  │     ├─ 0
+│  │  │     │  ├─ 0.jpg
+│  │  │     │  ├─ 1.jpg
+│  │  │     │  ├─ 2.jpg
+│  │  │     │  └─ 3.jpg
+│  │  │     ├─ 1
+│  │  │     │  ├─ 0.jpg
+│  │  │     │  ├─ 1.jpg
+│  │  │     │  ├─ 2.jpg
+│  │  │     │  └─ 3.jpg
+│  │  │     ├─ 2
+│  │  │     │  ├─ 0.jpg
+│  │  │     │  ├─ 1.jpg
+│  │  │     │  ├─ 2.jpg
+│  │  │     │  └─ 3.jpg
+│  │  │     └─ 3
+│  │  │        ├─ 0.jpg
+│  │  │        ├─ 1.jpg
+│  │  │        ├─ 2.jpg
+│  │  │        └─ 3.jpg
+│  │  └─ preview.jpg
+│  └─ 3-back
+│     ├─ 1
+│     │  ├─ b
+│     │  │  └─ 0
+│     │  │     └─ 0.jpg
+│     │  ├─ d
+│     │  │  └─ 0
+│     │  │     └─ 0.jpg
+│     │  ├─ f
+│     │  │  └─ 0
+│     │  │     └─ 0.jpg
+│     │  ├─ l
+│     │  │  └─ 0
+│     │  │     └─ 0.jpg
+│     │  ├─ r
+│     │  │  └─ 0
+│     │  │     └─ 0.jpg
+│     │  └─ u
+│     │     └─ 0
+│     │        └─ 0.jpg
+│     ├─ 2
+│     │  ├─ b
+│     │  │  ├─ 0
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  └─ 1.jpg
+│     │  │  └─ 1
+│     │  │     ├─ 0.jpg
+│     │  │     └─ 1.jpg
+│     │  ├─ d
+│     │  │  ├─ 0
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  └─ 1.jpg
+│     │  │  └─ 1
+│     │  │     ├─ 0.jpg
+│     │  │     └─ 1.jpg
+│     │  ├─ f
+│     │  │  ├─ 0
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  └─ 1.jpg
+│     │  │  └─ 1
+│     │  │     ├─ 0.jpg
+│     │  │     └─ 1.jpg
+│     │  ├─ l
+│     │  │  ├─ 0
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  └─ 1.jpg
+│     │  │  └─ 1
+│     │  │     ├─ 0.jpg
+│     │  │     └─ 1.jpg
+│     │  ├─ r
+│     │  │  ├─ 0
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  └─ 1.jpg
+│     │  │  └─ 1
+│     │  │     ├─ 0.jpg
+│     │  │     └─ 1.jpg
+│     │  └─ u
+│     │     ├─ 0
+│     │     │  ├─ 0.jpg
+│     │     │  └─ 1.jpg
+│     │     └─ 1
+│     │        ├─ 0.jpg
+│     │        └─ 1.jpg
+│     ├─ 3
+│     │  ├─ b
+│     │  │  ├─ 0
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  ├─ 1
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  ├─ 2
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  └─ 3
+│     │  │     ├─ 0.jpg
+│     │  │     ├─ 1.jpg
+│     │  │     ├─ 2.jpg
+│     │  │     └─ 3.jpg
+│     │  ├─ d
+│     │  │  ├─ 0
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  ├─ 1
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  ├─ 2
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  └─ 3
+│     │  │     ├─ 0.jpg
+│     │  │     ├─ 1.jpg
+│     │  │     ├─ 2.jpg
+│     │  │     └─ 3.jpg
+│     │  ├─ f
+│     │  │  ├─ 0
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  ├─ 1
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  ├─ 2
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  └─ 3
+│     │  │     ├─ 0.jpg
+│     │  │     ├─ 1.jpg
+│     │  │     ├─ 2.jpg
+│     │  │     └─ 3.jpg
+│     │  ├─ l
+│     │  │  ├─ 0
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  ├─ 1
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  ├─ 2
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  └─ 3
+│     │  │     ├─ 0.jpg
+│     │  │     ├─ 1.jpg
+│     │  │     ├─ 2.jpg
+│     │  │     └─ 3.jpg
+│     │  ├─ r
+│     │  │  ├─ 0
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  ├─ 1
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  ├─ 2
+│     │  │  │  ├─ 0.jpg
+│     │  │  │  ├─ 1.jpg
+│     │  │  │  ├─ 2.jpg
+│     │  │  │  └─ 3.jpg
+│     │  │  └─ 3
+│     │  │     ├─ 0.jpg
+│     │  │     ├─ 1.jpg
+│     │  │     ├─ 2.jpg
+│     │  │     └─ 3.jpg
+│     │  └─ u
+│     │     ├─ 0
+│     │     │  ├─ 0.jpg
+│     │     │  ├─ 1.jpg
+│     │     │  ├─ 2.jpg
+│     │     │  └─ 3.jpg
+│     │     ├─ 1
+│     │     │  ├─ 0.jpg
+│     │     │  ├─ 1.jpg
+│     │     │  ├─ 2.jpg
+│     │     │  └─ 3.jpg
+│     │     ├─ 2
+│     │     │  ├─ 0.jpg
+│     │     │  ├─ 1.jpg
+│     │     │  ├─ 2.jpg
+│     │     │  └─ 3.jpg
+│     │     └─ 3
+│     │        ├─ 0.jpg
+│     │        ├─ 1.jpg
+│     │        ├─ 2.jpg
+│     │        └─ 3.jpg
+│     └─ preview.jpg
+└─ vendor
+   ├─ bowser.min.js
+   ├─ marzipano.js
+   ├─ reset.min.css
+   └─ screenfull.min.js
+
+```
